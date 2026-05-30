@@ -6,7 +6,7 @@ const dataSource = new ProductData("tents");
 const productId = getParam("product");
 
 const product = new ProductDetails(productId, dataSource);
-await product.init();
+product.init();
 
 // function addProductToCart(product) {
 //   let cartItems = getLocalStorage("so-cart");

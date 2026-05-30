@@ -29,7 +29,7 @@ export default class ProductDetails {
   }
 
   renderProductDetails() {
-    document.querySelector("main").innerHTML = productDetailsTemplate(this.product);
+    productDetailsTemplate(this.product);
   }
 }
 
